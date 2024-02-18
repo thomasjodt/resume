@@ -1,0 +1,97 @@
+---
+import Section from '../ui/Section.astro'
+import { projects } from '@resume'
+
+---
+
+<Section title='Proyectos'>
+  <ul>
+    {
+      projects.map(({ name, url, description, isActive, highlights }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  {
+                    isActive
+                      ? (
+                        <a href={url} rel='noopener noreferrer' target='_blank' title={`Ver el proyecto ${name}`}>{name}</a>
+                        <span>&bull;</span>
+                      )
+                      : name
+                  }
+                </h3>
+                <p>{description}</p>
+              </header>
+
+
+              {
+                highlights.length > 0 && (
+                  <footer>
+                    <span>{highlights}</span>
+                  </footer>
+                )
+              }
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(300px, 1fr)
+    );
+  }
+
+  article {
+    border-radius: 8px;
+    border: 1px solid #e0e3eb;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%;
+  }
+
+  article header {
+    flex: 1;
+  }
+
+  article footer {
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    background-color: #dadada;
+    border-radius: 4px;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.8rem;
+    color: #111;
+  }
+
+  h3 a {
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: 500;
+  }
+
+  h3 a:hover {
+    text-decoration: underline;
+  }
+
+  h3 span {
+    color: limegreen;
+  }
+</style>

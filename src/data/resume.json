@@ -1,0 +1,281 @@
+{
+  "basics": {
+    "name": "Orlando Díaz",
+    "label": "Frontend Developer con más de 2 años de experiencia en el sector y una variedad de proyectos.",
+    "image": "/me.jpg",
+    "email": "jodt5200@gmail.com",
+    "phone": "+51 955300933",
+    "url": "https://thomasjodt.github.io",
+    "summary": "+2 años de experiencia como Desarrollador Web. Actualmente soy estudiante y desarrollador autónomo, me gusta aprender todo el tiempo. Vivo en Lima, Perú. He desarrollador proyectos para personas independientes y colaborado en otros proyectos.",
+    "location": {
+      "address": "",
+      "postalCode": "15301",
+      "city": "Los Olivos",
+      "countryCode": "PE",
+      "region": "Perú"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "thomasjodt",
+        "url": "https://linkedin.com/in/thomasjodt"
+      },
+      {
+        "network": "GitHub",
+        "username": "thomasjodt",
+        "url": "https://github.com/thomasjodt"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "thomasjodt",
+      "position": "Desarrollador Web independiente",
+      "url": "https://thomasjodt.github.io",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "summary": "Desarrollador web frontend, proyectos con React, Astro, Typescript, Tailwind y más. ",
+      "highlights": [
+        "Started to work independently."
+      ]
+    },
+    {
+      "name": "Inversiones Ditor S.A.C.",
+      "position": "Analista de inventario",
+      "url": null,
+      "startDate": "2023-04-23",
+      "endDate": null,
+      "summary": "Soy responsable del abastecimiento y control del inventario del establecimiento, además tengo otras responsabilidades en la atención al cliente.",
+      "highlights": [
+        "Started the work"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+      "position": "Misionero voluntario",
+      "url": "https://organization.com/",
+      "startDate": "2020-01-30",
+      "endDate": "2022-01-10",
+      "summary": "Fui responsable de motivar, evaluar y cuidar de 15 misioneros e informar acerca de su progreso.\nTuve responsabilidades adicionales para ayudar a otros representantes a mejorar el sector donde se ubican.",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "BYU Pathway Worldwide",
+      "url": "https://www.byupathway.edu/",
+      "area": "Pathway Connect",
+      "studyType": "Technic",
+      "startDate": "2022-01-01",
+      "endDate": null,
+      "score": null,
+      "courses": [
+        "Life Skills",
+        "Professional Skills"
+      ]
+    },
+    {
+      "institution": "Certus",
+      "url": "https://www.certus.edu.pe/",
+      "area": "Desarrollador Web Fullstack",
+      "studyType": "Technic",
+      "startDate": "2022-10-10",
+      "endDate": "2023-02-10",
+      "score": null,
+      "courses": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "Angular",
+        "Java",
+        "MySQL",
+        "Docker"
+      ]
+    },
+    {
+      "institution": "Platzi",
+      "url": "https://platzi.com",
+      "area": "Desarrollador web",
+      "studyType": "Technic",
+      "startDate": "2022-01-10",
+      "endDate": "2023-01-10",
+      "score": null,
+      "courses": [
+        "Programación Orientada a Objetos",
+        "Javascript Básico",
+        "Javascript Intermedio",
+        "API REST",
+        "Fundamentos de TypeScript",
+        "Manipulación del DOM",
+        "React: Estado, Redux, etc",
+        "Git y Github"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermedio"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "D&J Cleaning Services",
+      "isActive": true,
+      "description": "Landing Page para la empresa que brinda servicios de limpieza profesional.",
+      "highlights": [],
+      "url": "https://www.dnjcleaning.com/"
+    }
+  ]
+}
