@@ -7,7 +7,7 @@ import { education } from '@resume'
 <Section title='Educación'>
 <ul>
   {
-    education.map(({ url, institution, startDate, endDate, courses, area}) => {
+    education.map(({ institution, startDate, endDate, courses, area}) => {
       const startYear = new Date(startDate).getFullYear();
       const endYear = endDate !== null ? new Date(endDate).getFullYear() : 'actualidad'
 
